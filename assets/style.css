@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+/* navigation starts */
+
+   li {
+        list-style-type:none
+    }
+    a{
+        text-decoration: none;
+    }
+   .navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   } 
+   .nav-links{
+    display: flex;
+    gap: 30px;;
+   }
+   .nav-links li a:hover{
+    color: brown;
+    transition: all 0.4s ease-in-out;
+
+   }
+   .navigation-button{
+
+    border: radius 10px;
+    transition: all 0.4s ease-in-out;
+
+   }
+    .navigation-button:hover{
+        background-color: brown;
+        color: white;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    
+
+
+/* navigation ends */
